@@ -4,3 +4,57 @@ k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
+
+
+--platform=linux/arm64 gpustack/runner:cann8.3-910b-vllm0.11.0
+--platform=linux/arm64 gpustack/runner:cann8.3-a3-vllm0.11.0
+--platform=linux/arm64 gpustack/runner:cann8.2-310p-mindie2.1.rc2
+--platform=linux/arm64 gpustack/runner:cann8.2-310p-mindie2.1.rc1
+--platform=linux/arm64 gpustack/runner:cann8.2-310p-vllm0.10.0
+--platform=linux/arm64 gpustack/runner:cann8.2-310p-vllm0.9.2
+--platform=linux/arm64 gpustack/runner:cann8.2-910b-mindie2.1.rc2
+--platform=linux/arm64 gpustack/runner:cann8.2-910b-mindie2.1.rc1
+--platform=linux/arm64 gpustack/runner:cann8.2-910b-sglang0.5.2
+--platform=linux/arm64 gpustack/runner:cann8.2-910b-sglang0.5.1.post3
+--platform=linux/arm64 gpustack/runner:cann8.2-910b-vllm0.11.0
+--platform=linux/arm64 gpustack/runner:cann8.2-910b-vllm0.10.2
+--platform=linux/arm64 gpustack/runner:cann8.2-910b-vllm0.10.1.1
+--platform=linux/arm64 gpustack/runner:cann8.2-910b-vllm0.10.0
+--platform=linux/arm64 gpustack/runner:cann8.2-910b-vllm0.9.2
+--platform=linux/arm64 gpustack/runner:cann8.2-910b-vllm0.9.1
+--platform=linux/arm64 gpustack/runner:cann8.2-a3-mindie2.1.rc2
+--platform=linux/arm64 gpustack/runner:cann8.2-a3-sglang0.5.2
+--platform=linux/arm64 gpustack/runner:cann8.2-a3-sglang0.5.1.post3
+--platform=linux/arm64 gpustack/runner:cann8.2-a3-vllm0.11.0
+--platform=linux/arm64 gpustack/runner:cann8.2-a3-vllm0.10.2
+--platform=linux/arm64 gpustack/runner:cann8.2-a3-vllm0.10.1.1
+--platform=linux/arm64 gpustack/runner:corex4.2-vllm0.8.3
+--platform=linux/arm64 gpustack/runner:cuda12.8-sglang0.5.5
+--platform=linux/arm64 gpustack/runner:cuda12.8-sglang0.5.4.post3
+--platform=linux/arm64 gpustack/runner:cuda12.8-vllm0.11.0
+--platform=linux/arm64 gpustack/runner:cuda12.8-vllm0.10.2
+--platform=linux/arm64 gpustack/runner:cuda12.8-vllm0.10.1.1
+--platform=linux/arm64 gpustack/runner:cuda12.8-vllm0.10.0
+--platform=linux/arm64 gpustack/runner:cuda12.8-voxbox0.0.20
+--platform=linux/arm64 gpustack/runner:cuda12.6-vllm0.11.0
+--platform=linux/arm64 gpustack/runner:cuda12.6-vllm0.10.2
+--platform=linux/arm64 gpustack/runner:cuda12.6-vllm0.10.1.1
+--platform=linux/arm64 gpustack/runner:cuda12.6-vllm0.10.0
+--platform=linux/arm64 gpustack/runner:cuda12.6-voxbox0.0.20
+--platform=linux/arm64 gpustack/runner:cuda12.4-vllm0.11.0
+--platform=linux/arm64 gpustack/runner:cuda12.4-vllm0.10.2
+--platform=linux/arm64 gpustack/runner:cuda12.4-vllm0.10.1.1
+--platform=linux/arm64 gpustack/runner:cuda12.4-vllm0.10.0
+--platform=linux/arm64 gpustack/runner:cuda12.4-voxbox0.0.20
+--platform=linux/arm64 gpustack/runner:dtk25.04-vllm0.9.2
+--platform=linux/arm64 gpustack/runner:dtk25.04-vllm0.8.5
+--platform=linux/arm64 gpustack/runner:maca3.2-vllm0.10.2
+--platform=linux/arm64 gpustack/runner:maca3.0-vllm0.9.1
+--platform=linux/arm64 gpustack/runner:rocm7.0-vllm0.11.0
+--platform=linux/arm64 gpustack/runner:rocm6.4-vllm0.10.2
+--platform=linux/arm64 gpustack/runner:rocm6.3-vllm0.10.1.1
+--platform=linux/arm64 gpustack/runner:rocm6.3-vllm0.10.0
+--platform=linux/arm64 gpustack/runtime:pause
+--platform=linux/arm64 gpustack/runtime:health
+--platform=linux/arm64 gpustack/gpustack:v2.0.0
+
